@@ -1,0 +1,171 @@
+/*
+ * BMo-Design's ScrollGallery2 CSS
+ */
+ 
+/*reset*/
+.scrollGallery2 div, .scrollGallery2 span, .scrollGallery2 a, .scrollGallery2 p, .scrollGallery2 table, .scrollGallery2 td, .scrollGallery2 th, .scrollGallery2 tr, .scrollGallery2 ol, .scrollGallery2 ul, .scrollGallery2 li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.scrollGallery2 ol, .scrollGallery2 ul {
+	list-style: none;
+}
+.scrollGallery2 table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.scrollGallery2{
+	line-height:1;
+}
+
+/*default options*/
+.scrollGallery2{
+	position:relative;/*has to be postion:relativ or static*/
+    max-width:800px; /*change this*/
+	height:auto;
+}
+
+/*scrollGallery Design*/
+.scrollGallery2{
+	margin:0px;
+	padding:0px;
+}
+
+.scrollGallery2 .scrollGallery2Head{
+	margin-top:10px;
+	position:relative;
+}
+
+.scrollGallery2 .scrollGallery2Foot{
+	margin-top:10px;
+	position:relative; /*important for Buttons absolute positioning*/
+}
+
+
+.scrollGallery2 .thumbarea{
+	overflow: auto; 
+	overflow-y: hidden; 
+	overflow-x: auto;
+	width:100%;
+	padding-bottom:5px;/*important for scrolling in safari*/
+}
+.scrollGallery2 .thumbarea ul{
+ 	margin: 0; 
+	padding: 0;
+    text-align: center;
+	list-style:none;
+}
+.scrollGallery2 .thumbarea ul li{
+	float: left;
+	position: relative;
+	text-align: center;
+	vertical-align:middle;
+}
+.scrollGallery2 .thumbarea ul li img{
+    margin:0px;
+	vertical-align:middle;
+	margin: 0px 4px; /*use in ThumbMargins*/
+	display:inline;
+	background: url(../ajax-loader.gif) center center no-repeat;
+}
+
+.scrollGallery2 .imagearea{
+	overflow: auto; 
+	overflow-y: hidden; 
+	overflow-x: auto;
+	width:100%;
+}
+.scrollGallery2 .imagearea ul{
+	margin: 0; 
+	padding: 0;
+    text-align: center;
+	list-style:none;
+}
+.scrollGallery2 .imagearea ul li{
+	float: left;
+	position: relative;
+	text-align: center;
+	vertical-align:middle;
+}
+.scrollGallery2 .imagearea ul li img{
+	margin:0px auto;
+	vertical-align:middle;
+	max-width:100%;
+	max-height:100%;
+	display:inline;
+	background: url(../ajax-loader.gif) center center no-repeat;
+}
+
+ 
+
+/*Caption Version*/
+.scrollGallery2 .imagearea ul li .caption_container{
+	position:absolute;
+	bottom:5px;
+	cursor:pointer;
+	width:100%;
+	line-height:1.1em;
+	
+	/*position:relative;
+	margin:-40px 0px 0px 0px;
+	width:100%;
+	height:40px;*/
+}
+.scrollGallery2 .imagearea ul li .caption_container div{
+	padding:0px 4px;
+	/*display:inline; /*for dynamic width*/
+	
+	zoom: 1;
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	
+	background-color:#fff;
+	color:#000;
+	font-size:small;
+	cursor:pointer;
+}
+
+
+/*Buttons*/
+.scrollGallery2 .buttons{
+	zoom: 1; /*important*/
+	top: 0;
+    display: block;
+    outline: medium none;
+    position: absolute;
+    width: 50%;
+	min-height: 100%; /* Mindesthöhe für moderne Browser */
+	height:auto !important; /* Important Regel für moderne Browser */
+	height:100%; /* Mindesthöhe für den IE */
+	overflow: hidden !important; /* FF Scroll-leiste */ 
+}
+.scrollGallery2 .prev_button{
+    left: 0;
+	background: url(../prev_button3.png) left center no-repeat;
+}
+.scrollGallery2 .next_button{
+    right: 0;
+	background: url(../next_button3.png) right center no-repeat;
+}
+.scrollGallery2 .arrows{
+	zoom: 1; /*important*/
+	top: 50%;
+    display: block;
+    outline: medium none;
+    position: absolute;
+    width: 40px;
+	height: 25px;
+	margin-top:-12px;
+}
+.scrollGallery2 .prev_arrow{
+    left: 0;
+	background: url(../prev_button3.png) left center no-repeat;
+}
+.scrollGallery2 .next_arrow{
+    right: 0;
+	background: url(../next_button3.png) right center no-repeat;
+}

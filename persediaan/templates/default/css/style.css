@@ -1,0 +1,26 @@
+/* Effective stylesheet produced by snapshot save */
+.jp-audio { position: relative; display: block; width: 300px; height: 22px; background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/thecartpress/js/jquery.jplayer/skins/tcp.black/tcp.black.back.png") no-repeat scroll 0% 0% transparent; border: 1px solid rgb(0, 0, 0); border-radius: 2px 2px 2px 2px; }
+ul.jp-controls { list-style: none outside none; padding: 0px 0px 0px 2px; margin-top: 0px; margin-right: 0px; margin-left: 0px; margin-bottom: 0px ! important; }
+ul.jp-controls li { display: inline; clear: both; }
+ul.jp-controls a { position: absolute; display: block; width: 18px; height: 22px; text-indent: -1000px; margin-left: 4px; }
+a.jp-play { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/thecartpress/js/jquery.jplayer/skins/tcp.black/tcp.black.png") no-repeat scroll -19px 0px transparent; left: 2px; }
+a.jp-play:hover { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/thecartpress/js/jquery.jplayer/skins/tcp.black/tcp.black.png") no-repeat scroll 0% 0% transparent; }
+a.jp-pause { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/thecartpress/js/jquery.jplayer/skins/tcp.black/tcp.black.png") no-repeat scroll -19px -23px transparent; display: none; left: 2px; }
+a.jp-pause:hover { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/thecartpress/js/jquery.jplayer/skins/tcp.black/tcp.black.png") no-repeat scroll 0px -23px transparent; }
+a.jp-stop { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/thecartpress/js/jquery.jplayer/skins/tcp.black/tcp.black.png") no-repeat scroll -19px -46px transparent; left: 26px; }
+a.jp-stop:hover { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/thecartpress/js/jquery.jplayer/skins/tcp.black/tcp.black.png") no-repeat scroll 0px -46px transparent; }
+a.jp-mute { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/thecartpress/js/jquery.jplayer/skins/tcp.black/tcp.black.png") no-repeat scroll -19px -69px transparent; left: 192px; }
+a.jp-mute:hover { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/thecartpress/js/jquery.jplayer/skins/tcp.black/tcp.black.png") no-repeat scroll 0px -69px transparent; }
+a.jp-unmute { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/thecartpress/js/jquery.jplayer/skins/tcp.black/tcp.black.png") no-repeat scroll -19px -92px transparent; left: 192px; }
+a.jp-unmute:hover { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/thecartpress/js/jquery.jplayer/skins/tcp.black/tcp.black.png") no-repeat scroll 0px -92px transparent; }
+a.jp-volume-max { display: none; left: -100px; }
+.jp-time-holder .jp-current-time, .jp-time-holder .jp-duration { position: absolute; top: 4px; font-size: 0.7em; color: rgb(255, 255, 255); }
+.jp-time-holder .jp-current-time { left: 58px; }
+.jp-time-holder .jp-duration { left: 168px; }
+.jp-progress { position: absolute; top: 8px; left: 88px; background: none repeat scroll 0% 0% rgb(120, 135, 148); width: 76px; height: 5px; cursor: pointer; }
+.jp-seek-bar { background: none repeat scroll 0% 0% rgb(242, 242, 242); width: 0px; height: 100%; cursor: pointer; }
+.jp-play-bar { background: none repeat scroll 0% 0% rgb(120, 135, 148); width: 0px; height: 100%; }
+.jp-seeking-bg { background: none repeat scroll 0% 0% rgb(120, 135, 148); }
+.jp-volume-bar { position: absolute; top: 8px; left: 216px; background: none repeat scroll 0% 0% rgb(242, 242, 242); width: 76px; height: 5px; cursor: pointer; }
+.jp-volume-bar-value { background: none repeat scroll 0% 0% rgb(120, 135, 148); width: 5px; height: 5px; }
+.jp-no-solution, .jp-toggles, .jp-title { display: none; }

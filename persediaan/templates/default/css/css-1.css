@@ -1,0 +1,22 @@
+/* Effective stylesheet produced by snapshot save */
+.IN-followcompany {  }
+.IN-followcompany .IN-logo { background: url("sprite_connect_v13.png") no-repeat scroll 0px -276px transparent; cursor: pointer; float: right; height: 20px; left: 0px; top: 0px; overflow: hidden; position: absolute; text-indent: -9999em; width: 20px; }
+.IN-followcompany.top .IN-logo {  }
+.IN-followcompany .title { border-radius: 0px 2px 2px 0px; background-color: rgb(236, 236, 236); background-image: -moz-linear-gradient(rgb(254, 254, 254), rgb(236, 236, 236)); border-color: rgb(226, 226, 226) rgb(191, 191, 191) rgb(185, 185, 185); border-style: solid solid solid none; border-width: 1px 1px 1px 0px; color: rgb(51, 51, 51); cursor: pointer; display: block; float: left; height: 18px; line-height: 20px; padding: 0px 4px 0px 23px; text-align: center; text-shadow: -1px 1px 0px rgb(255, 255, 255); vertical-align: top; white-space: nowrap; margin-left: 1px; }
+.IN-followcompany .title-text { color: rgb(51, 51, 51); float: none; font-size: 11px; font-weight: bold; }
+.IN-followcompany .IN-right.container { cursor: pointer; display: inline-block; float: left; height: 18px; line-height: 1px; overflow: visible; padding-left: 2px; position: relative; margin-top: 1px; }
+.IN-followcompany .IN-right .outer { background: url("sprite_connect_v13.png") no-repeat scroll right -100px transparent; display: block; float: left; height: 18px; margin-right: 4px; padding-right: 4px; }
+.IN-followcompany .IN-right .inner { background: url("sprite_connect_v13.png") no-repeat scroll 0px -60px transparent; display: block; float: left; padding-left: 8px; text-align: center; }
+.IN-followcompany .IN-right .count { color: rgb(4, 85, 139); display: inline; font-family: Arial,sans-serif; font-size: 11px; font-weight: bold; line-height: 18px; padding: 0px 5px; }
+.IN-followcompany .IN-top.container { cursor: pointer; display: block; margin: 0px auto; height: 42px; line-height: 1px; overflow: visible; position: relative; text-align: center; }
+.IN-followcompany .IN-top .outer { background: url("sprite_connect_v13.png") no-repeat scroll -150px top transparent; display: inline-block; height: 42px; width: 57px; }
+.IN-followcompany .IN-top .inner { cursor: pointer; line-height: 1px; }
+.IN-followcompany .IN-top .count { color: rgb(4, 85, 139); display: inline; font-family: Arial,sans-serif; font-size: 14px; font-weight: bold; line-height: 34px; }
+.IN-followcompany a.IN-follow { position: relative; display: block; text-decoration: none; }
+.follow-actions:hover .title-text { color: rgb(0, 0, 0); }
+.follow-actions:hover .IN-logo { background-position: -20px -276px; }
+.follow-actions:hover .title { background-color: rgb(237, 237, 237); background-image: -moz-linear-gradient(rgb(237, 237, 237), rgb(222, 222, 222)); border-color: rgb(171, 171, 171) rgb(154, 154, 154) rgb(120, 120, 120); border-style: solid solid solid none; border-width: 1px 1px 1px 0px; }
+.follow-actions.down .title-text { color: rgb(102, 102, 102); }
+.follow-actions.down .IN-logo { background-position: -40px -276px; }
+.follow-actions.down .title { background-color: rgb(222, 222, 222); background-image: -moz-linear-gradient(rgb(227, 227, 227), rgb(237, 237, 237)); border-color: rgb(182, 182, 182) rgb(179, 179, 179) rgb(157, 157, 157); border-style: solid solid solid none; border-width: 1px 1px 1px 0px; color: rgb(102, 102, 102); }
+#body .wrapper { background-color: transparent ! important; }

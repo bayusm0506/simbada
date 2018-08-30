@@ -1,0 +1,1 @@
+<?php echo form_dropdown("kd_riwayat",$option_q,$this->session->userdata('kd_riwayat'),'class="input-large"'); ?>

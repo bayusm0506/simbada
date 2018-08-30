@@ -1,0 +1,13 @@
+/* Effective stylesheet produced by snapshot save */
+.scrollGallery2 { margin-top: 10px; background-color: rgb(51, 51, 51); border-top: 3px solid rgb(51, 51, 51); border-bottom: 3px solid rgb(51, 51, 51); }
+.scrollGallery2 .scrollGallery2Head { margin-top: 0px; }
+.scrollGallery2 .scrollGallery2Foot { margin-top: 0px; }
+.scrollGallery2 .thumbarea { border-top: 2px solid rgb(51, 51, 51); padding-bottom: 2px; width: 97.6%; margin-left: 1.2%; }
+.scrollGallery2 .thumbarea ul li img { border: 3px solid rgb(255, 255, 255); margin: 0px 7px; }
+.scrollGallery2 .imagearea {  }
+.scrollGallery2 .imagearea ul li img { border: 3px solid rgb(255, 255, 255); max-height: 95%; max-width: 95%; }
+.scrollGallery2 .imagearea ul li .caption_container div { display: inline; border: 1px solid rgb(255, 255, 255); opacity: 1; }
+.scrollGallery2 .prev_button {  }
+.scrollGallery2 .next_button {  }
+.scrollGallery2 .prev_arrow {  }
+.scrollGallery2 .next_arrow {  }

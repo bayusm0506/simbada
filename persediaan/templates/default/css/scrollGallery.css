@@ -1,0 +1,25 @@
+/* Effective stylesheet produced by snapshot save */
+.scrollGallery2 div, .scrollGallery2 span, .scrollGallery2 a, .scrollGallery2 p, .scrollGallery2 table, .scrollGallery2 td, .scrollGallery2 th, .scrollGallery2 tr, .scrollGallery2 ol, .scrollGallery2 ul, .scrollGallery2 li { margin: 0px; padding: 0px; border: 0px none; font: inherit; vertical-align: baseline; }
+.scrollGallery2 ol, .scrollGallery2 ul { list-style: none outside none; }
+.scrollGallery2 table { border-collapse: collapse; border-spacing: 0px; }
+.scrollGallery2 { line-height: 1; }
+.scrollGallery2 { position: relative; max-width: 800px; height: auto; }
+.scrollGallery2 { margin: 0px; padding: 0px; }
+.scrollGallery2 .scrollGallery2Head { margin-top: 10px; position: relative; }
+.scrollGallery2 .scrollGallery2Foot { margin-top: 10px; position: relative; }
+.scrollGallery2 .thumbarea { overflow-y: hidden; overflow-x: auto; width: 100%; padding-bottom: 5px; }
+.scrollGallery2 .thumbarea ul { margin: 0px; padding: 0px; text-align: center; list-style: none outside none; }
+.scrollGallery2 .thumbarea ul li { float: left; position: relative; text-align: center; vertical-align: middle; }
+.scrollGallery2 .thumbarea ul li img { vertical-align: middle; margin: 0px 4px; display: inline; background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/nextgen-scrollgallery/scrollGallery/ajax-loader.gif") no-repeat scroll center center transparent; }
+.scrollGallery2 .imagearea { overflow-y: hidden; overflow-x: auto; width: 100%; }
+.scrollGallery2 .imagearea ul { margin: 0px; padding: 0px; text-align: center; list-style: none outside none; }
+.scrollGallery2 .imagearea ul li { float: left; position: relative; text-align: center; vertical-align: middle; }
+.scrollGallery2 .imagearea ul li img { margin: 0px auto; vertical-align: middle; max-width: 100%; max-height: 100%; display: inline; background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/nextgen-scrollgallery/scrollGallery/ajax-loader.gif") no-repeat scroll center center transparent; }
+.scrollGallery2 .imagearea ul li .caption_container { position: absolute; bottom: 5px; cursor: pointer; width: 100%; line-height: 1.1em; }
+.scrollGallery2 .imagearea ul li .caption_container div { padding: 0px 4px; opacity: 0.7; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: small; cursor: pointer; }
+.scrollGallery2 .buttons { top: 0px; display: block; outline: medium none; position: absolute; width: 50%; min-height: 100%; height: auto ! important; overflow: hidden ! important; }
+.scrollGallery2 .prev_button { left: 0px; background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/nextgen-scrollgallery/scrollGallery/prev_button3.png") no-repeat scroll left center transparent; }
+.scrollGallery2 .next_button { right: 0px; background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/nextgen-scrollgallery/scrollGallery/next_button3.png") no-repeat scroll right center transparent; }
+.scrollGallery2 .arrows { top: 50%; display: block; outline: medium none; position: absolute; width: 40px; height: 25px; margin-top: -12px; }
+.scrollGallery2 .prev_arrow { left: 0px; background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/nextgen-scrollgallery/scrollGallery/prev_button3.png") no-repeat scroll left center transparent; }
+.scrollGallery2 .next_arrow { right: 0px; background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/nextgen-scrollgallery/scrollGallery/next_button3.png") no-repeat scroll right center transparent; }

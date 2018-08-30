@@ -1,0 +1,60 @@
+/*
+CSS Name: Grey-Photobook 
+Description: NextGEN scrollGallery Default Style 
+Author: Benedikt Morschheuser
+Version: 1.0
+ImgMargins: 0px 0px 0px 0px;
+ThumbMargins: 10px 10px 10px 10px;
+*/
+
+/* ----------- Styles extend -------------*/
+.scrollGallery2{
+	margin-top:10px;
+	background-color:#333333;
+	border-top:3px solid #333333;
+	border-bottom:3px solid #333333;
+}
+.scrollGallery2 .scrollGallery2Head{
+	margin-top:0px;
+}
+.scrollGallery2 .scrollGallery2Foot{
+	margin-top:0px;
+}
+.scrollGallery2 .thumbarea{
+	border-top:2px solid #333333;
+	padding-bottom:2px;/*testen im IE!!!*/
+	width:97.6%; /*better use % than margin and padding*/
+	margin-left:1.2%;
+}
+html* .scrollGallery2 .thumbarea {/* Safari */
+   padding-bottom:5px;
+}
+.scrollGallery2 .thumbarea ul li img{
+    border: 3px solid #ffffff; /*ThumbMargins = border+margins*/
+	margin: 0px 7px 0px 7px; /*never use here bottom and top margins.*/
+}
+.scrollGallery2 .imagearea{
+}
+.scrollGallery2 .imagearea ul li img{
+    border: 3px solid #ffffff;
+	max-height: 95%;
+    max-width: 95%;
+}
+
+
+.scrollGallery2 .imagearea ul li .caption_container div{
+	display:inline;
+	/*float:left;*/
+	border:1px solid #fff;
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.scrollGallery2 .prev_button{
+}
+.scrollGallery2 .next_button{
+}
+.scrollGallery2 .prev_arrow{
+}
+.scrollGallery2 .next_arrow{
+}

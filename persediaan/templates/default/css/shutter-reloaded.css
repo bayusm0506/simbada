@@ -1,0 +1,15 @@
+/* Effective stylesheet produced by snapshot save */
+#shDisplay div#shTitle { font: 12px/17px 'Lucida Grande',Verdana,sans-serif; color: rgb(255, 255, 255); text-align: center; margin: 0px auto; }
+#shDisplay div#shCount { color: rgb(153, 153, 153); font: 10px/12px 'Lucida Grande',Verdana,sans-serif; }
+#shDisplay div#shTitle a { text-decoration: none; font: bold 16pt 'Courier New',Courier,fixed; letter-spacing: -2px; margin: 0px 10px; width: 26px; color: rgb(153, 153, 153); }
+#shDisplay div#shTitle a:hover { color: rgb(255, 255, 255); border: medium none; }
+#shDisplay div#shNext { float: right; }
+#shDisplay div#shPrev { float: left; }
+body { height: 100%; }
+#shShutter *, #shDisplay * { padding: 0px; margin: 0px; }
+div#shShutter, div#shDisplay { top: 0px; left: 0px; width: 100%; position: absolute; }
+div#shShutter { height: 100%; z-index: 10000; background-color: rgb(0, 0, 0); opacity: 0.8; }
+div#shDisplay { display: block; background-color: transparent; z-index: 10002; }
+div#shDisplay img#shTopImg { margin: 0px auto; border: 1px solid rgb(85, 85, 85); background: none repeat scroll 0% 0% transparent; display: block; max-width: none; max-height: none; float: none; padding: 2px; cursor: pointer; }
+div#shDisplay div#shWrap { visibility: hidden; }
+div#shWaitBar { font: bold 32px 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif; height: 36px; width: 100%; left: 0px; cursor: default; opacity: 0.999; z-index: 10001; margin-top: 160px; color: rgb(174, 10, 10); text-align: center; }

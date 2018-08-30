@@ -1,0 +1,35 @@
+/* Effective stylesheet produced by snapshot save */
+table.tcp_products_list, #content table.tcp_products_list { border-collapse: separate; border-spacing: 2px; margin: 0px 0px 1em; border: 0px none; padding: 0px; width: 100%; font-size: 12px; }
+table.tcp_products_list tr, table.tcp_products_list tr td, table.tcp_products_list tr th, #content table.tcp_products_list tr, #content table.tcp_products_list tr td, #content table.tcp_products_list tr th { border: 0px none; padding: 0px; margin: 0px; }
+div.tcp_order_panel { text-align: right; font-size: 0.75em; margin: 0px 0px 0.625em; padding: 0.365em 1em; }
+div.tcp_order_panel input, div.tcp_order_panel select { font-size: 1em; }
+table.tcp_products_list tr td, #content table.tcp_products_list tr td { border: 1px solid rgb(204, 204, 204); padding: 8px; line-height: 1.625em; text-decoration: none; }
+table.tcp_products_list tr td.tcp_td_empty, #content table.tcp_products_list tr td.tcp_td_empty { border: 0px none; background-image: url(""); background-color: transparent; }
+table.tcp_products_list tr td:hover {  }
+table.tcp_products_list tr td.tcp_8_cols { width: 12%; padding: 4px; }
+table.tcp_products_list tr td.tcp_7_cols { width: 14%; padding: 4px; }
+table.tcp_products_list tr td.tcp_6_cols { width: 16%; padding: 4px; }
+table.tcp_products_list tr td.tcp_5_cols { width: 20%; padding: 4px; }
+table.tcp_products_list tr td.tcp_4_cols { padding: 6px; width: 25%; }
+table.tcp_products_list tr td.tcp_3_cols { width: 33%; }
+table.tcp_products_list tr td.tcp_2_cols { width: 50%; }
+table.tcp_products_list .entry-title { font-weight: bold; line-height: 1.5em; padding: 0.375em 0px; font-size: 1.3em; margin: 0px; }
+table.tcp_products_list .entry-post-thumbnail img, #content table.tcp_products_list .entry-post-thumbnail img { height: auto; max-width: 100%; border: 0px none; padding: 0px; margin: 0px; }
+.entry-price { font-weight: bold; line-height: 1.5em; }
+.entry-price.free { color: rgb(125, 183, 47); text-transform: uppercase; }
+.tcp_products_list .entry-summary { padding: 0px; margin: 0.5em 0px 0px; }
+.tcp_products_list .entry-summary p { margin-bottom: 0px; }
+#content .tcp_products_list .hentry { margin: 0px; padding: 0px; }
+.entry-taxonomies { margin: 0.5em 0px 0px; font-size: 0.85em; }
+.tcp_products_list .entry-utilities a { font-weight: bold; font-size: 0.9em; }
+.entry-taxonomies span { clear: left; display: block; line-height: 1.8em; }
+.tcp_products_list .entry-meta { line-height: 1.1em; font-size: 0.9em; opacity: 0.7; margin-bottom: 0.625em; }
+.entry-meta span.tcp_posted_on, .entry-meta span.tcp_by_author { clear: right; display: block; }
+.entry-meta span.tcp_posted_on { margin: 0.375em 0px 0px; }
+.entry-meta span.tcp_by_author { margin: 0.375em 0px 0.625em 1px; }
+table.tcp_products_list .hentry { padding: 0px ! important; border: 0px none ! important; margin: 0px; }
+@media (max-width: 650px) {
+  #content {  }
+  table.tcp_products_list tr td, table.tcp_products_list tr td.tcp_4_cols, table.tcp_products_list tr td.tcp_5_cols, table.tcp_products_list tr td.tcp_6_cols, table.tcp_products_list tr td.tcp_7_cols, table.tcp_products_list tr td.tcp_8_cols { padding: 1px ! important; border: 0px none; background-image: url(""); }
+  table.tcp_products_list { font-size: 0.85em; }
+}

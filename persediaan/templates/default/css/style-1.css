@@ -1,0 +1,73 @@
+/* Effective stylesheet produced by snapshot save */
+div.cgview { list-style-type: none; clear: both; text-align: center; }
+div.cgview ul { margin-left: -10px; list-style-type: none; clear: both; overflow: hidden; }
+div.cgview ul li { font-weight: bold; text-align: center; margin: 10px 0px 0px 10px; border-radius: 10px 10px 10px 10px; }
+div.cgview ul li { display: inline-block; position: relative; border: 4px double; overflow: hidden; }
+div.cgview ul li:hover { border: 4px solid; }
+div.cgview ul li div.cgtitle { height: 0%; overflow: hidden; z-index: 3; position: absolute; bottom: 0px; left: 0px; width: inherit; }
+div.cgview ul li div.cgtitle p { width: inherit; }
+div.cgview ul li div.cgback { height: 0%; overflow: hidden; z-index: 2; position: absolute; bottom: 0px; left: 0px; width: inherit; opacity: 0.6; }
+div.cgview ul li div.cgtitle p a { font-family: Geneva,Arial,Helvetica,sans-serif; text-decoration: none; }
+div.cgview.light ul li { border-color: rgb(170, 170, 170); }
+div.cgview.light ul li:hover { border-color: rgb(204, 204, 204); }
+div.cgview.light ul li div.cgback { background-color: rgb(255, 255, 255); }
+div.cgview.light ul li div.cgtitle p a { color: rgb(0, 0, 0); }
+div.cgview.dark ul li { border-color: rgb(119, 119, 119); }
+div.cgview.dark ul li:hover { border-color: rgb(85, 85, 85); }
+div.cgview.dark ul li div.cgback { background-color: rgb(0, 0, 0); }
+div.cgview.dark ul li div.cgtitle p a { color: rgb(255, 255, 255); }
+div.cgview ul li div.cgback.cgnojs.hover, div.cgview ul li div.cgback.cgnojs.never { display: none; height: 35%; }
+div.cgview ul li div.cgtitle.cgnojs.hover, div.cgview ul li div.cgtitle.cgnojs.never { display: none; height: 32%; }
+div.cgview ul li div.cgback.always { display: block; height: 35%; }
+div.cgview ul li div.cgtitle.always { display: block; height: 32%; }
+div.cgview ul li:hover > div.cgback.cgnojs.hover, div.cgview ul li:hover > div.cgtitle.cgnojs.hover { display: block; }
+div#cg-credits { font-family: Arial,Helvetica,sans-serif; font-size: 80%; color: rgb(119, 119, 119); text-align: right; }
+div#cg-credits a { color: rgb(51, 102, 204); text-decoration: none; }
+ol#cg-page-controls { clear: both; position: relative; margin: 0px 0px 0px -2px; }
+ol#cg-page-controls li { display: inline-block; position: relative; width: 16px; height: 16px; background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/bg_buttons.png") no-repeat scroll 0px 0px transparent; text-indent: -8000px; list-style: none outside none; cursor: pointer; margin: 0px 2px; }
+ol#cg-page-controls li:hover { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/bg_buttons.png") no-repeat scroll 0px -16px transparent; }
+ol#cg-page-controls li.current { color: rgb(255, 0, 0); font-weight: bold; background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/bg_buttons.png") no-repeat scroll 0px -32px transparent; }
+ol#cg-page-controls li.prev { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/bg_buttons.png") no-repeat scroll 0px -64px transparent; }
+ol#cg-page-controls li.next { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/bg_buttons.png") no-repeat scroll 0px -48px transparent; }
+#cg-post-container { color: rgb(0, 0, 0); }
+#cg-post-title { width: inherit; font-family: Geneva,Arial,Helvetica,sans-serif; font-weight: bold; font-size: 180%; padding-bottom: 10px; text-align: center; }
+#cg-post-title a { text-decoration: none; color: rgb(51, 51, 51); }
+#cg-post-content {  }
+#colorbox, #cboxOverlay, #cboxWrapper { position: absolute; top: 0px; left: 0px; z-index: 9999; overflow: hidden; }
+#cboxOverlay { position: fixed; width: 100%; height: 100%; }
+#cboxMiddleLeft, #cboxBottomLeft { clear: left; }
+#cboxContent { position: relative; }
+#cboxLoadedContent { overflow: auto; }
+#cboxTitle { margin: 0px; }
+#cboxLoadingOverlay, #cboxLoadingGraphic { position: absolute; top: 0px; left: 0px; width: 100%; }
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow { cursor: pointer; }
+.cboxPhoto { float: left; margin: auto; border: 0px none; display: block; }
+.cboxIframe { width: 100%; height: 100%; display: block; border: 0px none; }
+#cboxOverlay { background: none repeat scroll 0% 0% rgb(0, 0, 0); }
+#colorbox {  }
+#cboxContent { margin-top: 20px; }
+.cboxIframe { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#cboxError { padding: 50px; border: 1px solid rgb(204, 204, 204); }
+#cboxLoadedContent { border: 5px solid rgb(0, 0, 0); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#cboxTitle { position: absolute; top: -20px; left: 0px; color: rgb(204, 204, 204); }
+#cboxCurrent { position: absolute; top: -20px; right: 0px; color: rgb(204, 204, 204); }
+#cboxSlideshow { position: absolute; top: -20px; right: 90px; color: rgb(255, 255, 255); }
+#cboxPrevious { position: absolute; top: 50%; left: 5px; margin-top: -32px; background: url("controls.png") no-repeat scroll left top transparent; width: 28px; height: 65px; text-indent: -9999px; }
+#cboxPrevious:hover { background-position: left bottom; }
+#cboxNext { position: absolute; top: 50%; right: 5px; margin-top: -32px; background: url("controls.png") no-repeat scroll right top transparent; width: 28px; height: 65px; text-indent: -9999px; }
+#cboxNext:hover { background-position: right bottom; }
+#cboxLoadingOverlay { background: none repeat scroll 0% 0% rgb(0, 0, 0); }
+#cboxLoadingGraphic { background: url("loading.gif") no-repeat scroll center center transparent; }
+#cboxClose { position: absolute; top: 5px; right: 5px; display: block; background: url("controls.png") no-repeat scroll center top transparent; width: 38px; height: 19px; text-indent: -9999px; z-index: 9999; }
+#cboxClose:hover { background-position: center bottom; z-index: 9999; }
+#cboxLoadedContent { border: 1px solid rgb(68, 68, 68); background: none repeat scroll 0% 0% black; padding: 4px; }
+.cboxIE #cboxTopLeft, .cboxIE #cboxTopCenter, .cboxIE #cboxTopRight, .cboxIE #cboxBottomLeft, .cboxIE #cboxBottomCenter, .cboxIE #cboxBottomRight, .cboxIE #cboxMiddleLeft, .cboxIE #cboxMiddleRight {  }
+.cboxIE6 #cboxTopLeft { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/ie6/borderTopLeft.png") repeat scroll 0% 0% transparent; }
+.cboxIE6 #cboxTopCenter { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/ie6/borderTopCenter.png") repeat scroll 0% 0% transparent; }
+.cboxIE6 #cboxTopRight { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/ie6/borderTopRight.png") repeat scroll 0% 0% transparent; }
+.cboxIE6 #cboxBottomLeft { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/ie6/borderBottomLeft.png") repeat scroll 0% 0% transparent; }
+.cboxIE6 #cboxBottomCenter { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/ie6/borderBottomCenter.png") repeat scroll 0% 0% transparent; }
+.cboxIE6 #cboxBottomRight { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/ie6/borderBottomRight.png") repeat scroll 0% 0% transparent; }
+.cboxIE6 #cboxMiddleLeft { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/ie6/borderMiddleLeft.png") repeat scroll 0% 0% transparent; }
+.cboxIE6 #cboxMiddleRight { background: url("urn:not-loaded:http://www.miramax.com/wp-content/plugins/category-grid-view-gallery/css/images/ie6/borderMiddleRight.png") repeat scroll 0% 0% transparent; }
+.cboxIE6 #cboxTopLeft, .cboxIE6 #cboxTopCenter, .cboxIE6 #cboxTopRight, .cboxIE6 #cboxBottomLeft, .cboxIE6 #cboxBottomCenter, .cboxIE6 #cboxBottomRight, .cboxIE6 #cboxMiddleLeft, .cboxIE6 #cboxMiddleRight {  }

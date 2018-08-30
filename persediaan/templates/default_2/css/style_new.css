@@ -1,0 +1,83 @@
+ @media screen and (max-device-width: 1024px) {
+  body {
+    width: 107%;
+  }
+}
+table.tcp_products_list img {
+  border: 1px solid rgba(0,0,0,0.2) !important;
+}
+table.tcp_products_list img:hover {
+  border: 1px solid rgba(4,135,163,0.8) !important;
+}
+.entry_content :first-child {
+  margin-top: 0px;
+}
+.tcp_product .entry_content p {
+  margin-top: 0px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+h2.entry-title {
+  font-size: 24px !important;
+}
+.mmx-loop-excerpt h2.entry-title {
+  font-size: 18px !important;
+}
+#footer a:link,
+#footer a:active,
+#footer a:visited {
+  color: #999 !important;
+}
+#footer a:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+a.button:hover {
+  text-decoration: none;
+}
+#site #page {
+  min-height: 1000px;
+}
+.dk-speakup-progressbar {
+  margin-top: 0px !important;
+}
+.dk-speakup-progressbar-medium {
+  background: #04BCE5 url(.images/bg-progressbar.png) repeat-x top left;
+}
+.dk-speakup-petition-wrap a:hover {
+  text-decoration: none;
+}
+.section-postloop {
+  border-bottom: 1px solid #eee;
+}
+.tl-loop li {
+  font-size: 100%;
+}
+.txx-button-dark {
+  -moz-box-shadow: inset 0px 0px 0px 0px #000000;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #000000;
+  box-shadow: inset 0px 0px 0px 0px #000000;
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0.05,#4f4d4f),color-stop(1,#262526));
+  background: -moz-linear-gradient(center top,#4f4d4f 5%,#262526 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4f4d4f',endColorstr='#262526');
+  background-color: #4f4d4f;
+  border: 1px solid #484848;
+  display: inline-block;
+  color: #E8E4C7;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+.txx-button-dark:hover {
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0.05,#262526),color-stop(1,#4f4d4f));
+  background: -moz-linear-gradient(center top,#262526 5%,#4f4d4f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#262526',endColorstr='#4f4d4f');
+  background-color: #262526;
+  color: #f0f0f0;
+  text-decoration: none !important;
+}
+.txx-button-dark:active {
+  position: relative;
+  top: 1px;
+}
